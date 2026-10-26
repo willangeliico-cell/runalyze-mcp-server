@@ -27,5 +27,5 @@ jobs:
         run: |
           echo "Waiting for deployment to be ready..."
           sleep 10
-          curl -f https://runalyze-mcp-server.fly.dev/health || exit 1
+          curl -f https://runalyze-mcp-will.fly.dev/health || exit 1
           echo "Deployment successful and health check passed!"
